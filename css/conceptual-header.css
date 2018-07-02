@@ -1,0 +1,88 @@
+.menu-header{
+    position: absolute;
+    width: calc(100% - 224px);
+    height: 132px;
+    left: 224px;
+}
+.content-header{
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    left: calc(50% - (1000px / 2));
+}
+.project-name-header{
+    padding-top: 20px;
+}
+.header-txt{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 137, 217);
+}
+.project-name{
+    width: 388px;
+    height: 38px;
+    font-size: 28px;
+    padding-top: 5px;
+    color: rgb(0, 137, 217);
+    border: none;
+    border-bottom: 1px solid rgb(139, 139, 139);
+    background-color: transparent;
+}
+.buttom-group{
+    position: absolute;
+    top: 92px;
+    left: 550px;
+}
+.first-buttom , .mid-buttom , .last-buttom{
+    float: left;
+    font-weight: bold;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    color: rgb(0, 141, 170);
+    border: 1px solid rgb(0, 153, 242);
+    background-color: rgb(255, 255, 255);
+}
+.first-buttom{
+    border-radius: 8px 0px 0px 8px;
+}
+.last-buttom{
+    border-radius: 0px 8px 8px 0px;
+}
+.first-buttom:focus , .mid-buttom:focus , .last-buttom:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 242);
+    border: rgb(0, 153, 242);
+}
+.content-table{
+    position: absolute;
+    overflow: auto;
+    top: 132px;
+    left: 224px;
+    width: calc(100% - 224px);
+    height: calc(100% - 154px);
+    z-index: -20;
+}
+@media(max-width: 1200px) {
+    .content-header{
+        width: 700px;
+        left: calc(50% - (700px / 2));
+     }
+     .project-name{
+        width: 300px;
+        height: 28px;
+        font-size: 20px;
+    }
+    .header-txt{
+        font-size: 14px;
+    }
+    .buttom-group{
+        top: 92px;
+        left: 370px;
+    }
+    .first-buttom , .mid-buttom , .last-buttom{
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
+    }
+}

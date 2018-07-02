@@ -1,0 +1,124 @@
+.popup-frame{
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    top: calc(50% - (420px / 2));
+    left: calc(55% - (600px / 2));
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+}
+.display-frame{
+    position: relative;
+    width: 560px;
+    left: calc(50% - (560px / 2));
+}
+.btn-cancle{
+    float: right;
+    width: 15px;
+    height: 15px;
+}
+h2{
+    font-size: 32px;
+    color: rgb(0, 121, 191);
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.301);
+}
+.add-button-frame{
+   padding-left: 10px;
+}
+.choice-header{
+    margin-left: 60px;
+}
+.feature-choice{
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 137, 217);
+    margin-left: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.eshour{
+    width: 50px;
+    height: 28px;
+    margin: 0px 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 153, 242);
+    -moz-appearance:textfield;
+}
+.btn-add{
+    width: 46px;
+    height: 28px;
+    font-weight: bold;
+    border:none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(0, 137, 217);
+}
+.project-header{
+    height: 30px;
+    padding-left: 15px;
+    background-color: rgb(0, 137, 217);
+    color: rgb(255, 255, 255);
+}
+.table-display{
+    position: relative;
+    overflow: auto;
+    width: 500px;
+    height: 200px;
+   
+    left: calc(50% - (500px /2));
+}
+.row {
+    display: table-row;
+    background: #fff;
+}
+.row:nth-of-type(odd) {
+    background: #ebeff2;
+}
+.col-header{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.col{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn-delete{
+    width: 70px;
+    height: 26px;
+    border-radius: 24px;
+    font-weight: bold;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 74, 74);
+}
+.btn-popup{
+    float: right;
+    width: 100px;
+    height: 30px;
+    border-radius: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 137, 217);
+}
+.es_hour_sumbit{
+    width: 50px;
+    height: 28px;
+    margin: 0px 20px;
+    border-bottom: none;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

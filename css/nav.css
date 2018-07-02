@@ -1,0 +1,110 @@
+*{
+    font-family: "Helvetica";
+}
+html{
+    height: 100%;
+}
+body{
+    overflow: scroll;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img_css/space_b.png");
+}
+a{
+    text-decoration: none;
+}
+.nav-bar-main{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+}
+.content-box{
+    position: relative;
+    width: 1260px;
+    height: 80px;
+    top: calc(50% - (80px / 2));
+    left: calc(50% - (1270px / 2));
+}
+.nav-logo{
+    float: left;
+    width: 110px;
+    height: 65px;
+    padding-right: 35px;
+}
+.search{
+    position: relative;
+    border: none;
+    box-sizing: border-box;
+    top: calc(50% - (42px / 2));
+    width: 485px;
+    height: 42px;
+    padding-left: 12px;
+    margin-left: 18px;
+    margin-right: 28px;
+    border-radius: 10px;
+}
+.menu-bar{
+    position: relative;
+    display: inline;
+    top: calc(50% - (42px / 2));
+    margin-left: 38px;
+}
+.menu-item{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px 8px 14px;
+    color: rgb(255, 255, 255);
+    font-size: 18;
+}
+.menu-item:hover{
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 137, 217);
+    border-radius: 8px;
+}
+.profile-logo{
+    float: right;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.spaceship-content{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: calc(100% - 120px);
+}
+.spaceship-percent{
+    position: relative;
+    width: 100%;
+    top: 280px;
+
+}
+.header-project{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.percent-project{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    left: 15px;
+    bottom: 50px;
+}
+.space-project{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    width: 180px;
+}
+.planet-project{
+    width: 114px;
+    height: 114px;
+}
+.spaceship-project{
+    width: 80px;
+    height: 80px;
+}

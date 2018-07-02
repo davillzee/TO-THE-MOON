@@ -1,0 +1,72 @@
+p{
+    margin: 0;
+}
+.table-work{
+    width: 110px;
+    height: 35px;
+    border-radius: 2px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.headerrow{
+    width: 95px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(200, 200, 200);
+    color: rgb(0,0,0);
+    border-radius: 2px;
+}
+.table-tank{
+    position: relative;
+    top: 35px;
+    left: 80px;
+    border-radius: 2px;
+    z-index: 1;
+}
+.month-display{
+    position: relative;
+    top: 20px;
+    left: 45%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 137, 217);
+}
+.previous{
+    float: right;
+    width:20px;
+    height:15px;
+}
+.next{
+    float: left;
+    width:20px;
+    height:15px;
+}
+.week-header{
+    border: none;
+}
+.tank-header{
+    text-align: center;
+    border: 1px solid rgb(0, 137, 217);
+}
+.name-header{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.position-header{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.table-hour{
+    display: table-cell;
+    width: 15px;
+    height: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+}
+@media(max-width:1200px){
+    .table-tank{
+        left: 45px;
+    }
+}

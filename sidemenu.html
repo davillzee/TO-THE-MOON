@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/sidemenu.css">
+    <link rel="stylesheet" href="css/submenu.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div class="side-main-menu">
+        <div class="side-menu-profile">
+            <div class="profile-box">
+                <center>
+                    <img class="profile-img" src="img/profile.jpg" alt="tothemoon">
+                    <div id="username" class="username"></div>
+                    <div id="position" class="position"></div>
+                    <button id="Btn-logout" class="Btn-logout">LOGOUT</button>
+                </center>
+            </div>
+        </div>
+        <div class="side-menu-menu">
+            <a class="menu-link" href="spaceship.html">
+                <img class="menu-logo" id="spaceshift" src="img/menu_logo/rocket_menu.svg">SPACESHIFT</a>
+            <a class="menu-link" href="greentable.html">
+                <img class="menu-logo" src="img/menu_logo/table_menu.svg">GREEN TABLE</a>
+
+            <div class="submenu">
+                <a class="menu-link" href="#">
+                    <img class="menu-logo" src="img/menu_logo/project_menu.svg">PROJECT
+                    <img class="submenu-icon" src="img/icon/procese_right_menu.svg">
+                </a>
+                <div class="dropdown-content">
+                    <div class="submenu-process">
+                        <a id="submenu_processe_name" class="submenu-link" href="#">INPROCESS
+                            <img class="submenu-icon" src="img/icon/procese_right_menu.svg">
+                        </a>
+                        <div id="dropdown-process-content" class="dropdown-process-content">
+
+                        </div>
+                    </div>
+                    <a class="submenu-link" href="#">SUCCES</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="side-menu-inprocese" class="side-menu-inprocese" hidden>
+            <div class="line-text">
+                <span class="menu-direct-header">INPROCESE</span>
+            </div>
+            <a class="menu-link" href="#">
+                <img class="menu-logo" src="img/menu_logo/concept_menu.svg">CONCEPTUAL</a>
+
+            <div class="dropdown">
+                <a class="menu-link" href="tank.html">
+                    <img class="menu-logo" src="img/menu_logo/chart_menu.svg">TANK
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/mainx.js"></script>
+<script src="js/main.js"></script>
+
+
+</html>
